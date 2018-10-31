@@ -38,5 +38,7 @@ public class VarArgDemo {
         int sum3 = doSum(new int[]{4, 65, 78});
         System.out.println(sum3);
         System.out.println(sum4);
+
+
     }
 }

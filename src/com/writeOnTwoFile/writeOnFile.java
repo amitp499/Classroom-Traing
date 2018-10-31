@@ -16,7 +16,6 @@ public class writeOnFile {
 
     public void readFromFile(String fileToRead, String fileToWrite)throws Exception {
 
-        Delay();
         String rTemp=null;
 
         try {
@@ -35,7 +34,7 @@ public class writeOnFile {
                 FileWriter fw = new FileWriter(wFile,true);
 
                 BufferedWriter bw = new BufferedWriter(fw);
-                Delay();
+               // Delay();
                 while ((rTemp = br.readLine()) != null) {
 
                        bw.write(rTemp);

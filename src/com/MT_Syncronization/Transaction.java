@@ -14,7 +14,6 @@ public class Transaction implements Runnable{
     }
 
 
-
     @Override
     public void run() {
         String name = Thread.currentThread().getName();

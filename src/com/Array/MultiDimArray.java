@@ -1,5 +1,7 @@
 package com.Array;
 
+import com.Annotation.Author_Annotation;
+
 public class MultiDimArray {
 
     public static void main(String[] args) {
@@ -12,7 +14,9 @@ public class MultiDimArray {
         data[3] = new int[]{05,60,70};
 
         for (int i=0; i<data.length;i++){
+
             int sum=0;
+
             for (int j=0; j<data[i].length;j++){
 
                 sum+= data[i][j];
